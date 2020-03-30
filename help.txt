@@ -1,0 +1,28 @@
+------------------heroku-----------------------------------------------
+
+git status
+git init
+git add .
+git push -u origin master
+
+  git clone //////// to download file from github
+heroku create
+git commit -m "message"
+git push heroku master
+
+
+add "start" : "node app.js"  under script to package.json------
+
+
+heroku ps:scale web=0   /////to stop server
+heroku ps:scale web=1/////// to start server
+
+heroku run <command>/bash(for termial)
+
+heroku logs
+
+heroku open
+
+
+git help------------
+https://rubygarage.org/blog/most-basic-git-commands-with-examples
